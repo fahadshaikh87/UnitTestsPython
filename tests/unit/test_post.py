@@ -1,5 +1,7 @@
-from blog.pythonProject.tests.post import Post
 from unittest import TestCase
+
+from blog.pythonProject.tests.post import Post
+
 
 class PostTest(TestCase):
     def test_create_post(self):
