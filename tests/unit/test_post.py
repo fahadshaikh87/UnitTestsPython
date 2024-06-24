@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from blog.pythonProject.tests.post import Post
+from tests.post import Post
 
 
 class PostTest(TestCase):
