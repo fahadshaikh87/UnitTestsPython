@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f58c2d0d-90ba-4a82-8e3b-4d5043b64973" name="Changes" comment="latest changes">
+      <change afterPath="$PROJECT_DIR$/tests/integration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/test_blog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittestspython" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/blog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/test_blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/test_blog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,47 +56,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in test_blog.py (1).executor": "Run",
-    "Python tests.Python tests in test_blog.py.executor": "Debug",
-    "Python tests.Python tests in unit.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.blog.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/fahad.shaikh/blog/pythonProject",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in integration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_app.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_blog.py (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_blog.py (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_blog.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in tests (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unittests for system.test_app.AppTest.test_menu_calls_print_blogs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blog.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fahad.shaikh/blog/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_blog.py (1)">
-    <configuration name="Python tests in test_blog.py (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python tests.Unittests for test_app.AppTest.test_menu_prints_prompt">
+    <configuration name="Python tests in integration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit/test_blog.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/integration&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_blog.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_app.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;C:\\Users\\fahad.shaikh\\blog\\pythonProject&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/system/test_app.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -107,10 +136,51 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for system.test_app.AppTest.test_menu_calls_print_blogs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;system.test_app.AppTest.test_menu_calls_print_blogs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_app.AppTest.test_menu_prints_prompt" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_app.AppTest.test_menu_prints_prompt&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for test_app.AppTest.test_menu_prints_prompt" />
+      <item itemvalue="Python tests.Python tests in test_app.py" />
+      <item itemvalue="Python tests.Unittests for system.test_app.AppTest.test_menu_calls_print_blogs" />
+      <item itemvalue="Python tests.Python tests in integration" />
+      <item itemvalue="Python tests.Python tests in tests (1)" />
+      <item itemvalue="Python tests.Python tests in unit" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_blog.py (1)" />
-        <item itemvalue="Python tests.Python tests in test_blog.py" />
+        <item itemvalue="Python tests.Python tests in test_app.py" />
+        <item itemvalue="Python tests.Python tests in tests (1)" />
+        <item itemvalue="Python tests.Unittests for system.test_app.AppTest.test_menu_calls_print_blogs" />
+        <item itemvalue="Python tests.Python tests in integration" />
         <item itemvalue="Python tests.Python tests in unit" />
       </list>
     </recent_temporary>
@@ -139,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719237440645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="latest changes">
+      <option name="closed" value="true" />
+      <created>1719238209587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719238209587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
